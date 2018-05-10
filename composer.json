@@ -1,0 +1,10 @@
+{
+    "name": "odaniels/fontmorand",
+    "authors": [
+        {
+            "name": "Owen Daniels",
+            "email": "odaniels@salesforce.com"
+        }
+    ],
+    "require": {}
+}
