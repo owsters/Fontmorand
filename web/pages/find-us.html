@@ -31,7 +31,7 @@
 
 </script>
 <style>
-      #gmap {
+      #map {
         height: 450px;
         width: 600px;
        }
@@ -87,12 +87,12 @@
           <!--<div class="google-maps">
           <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m11!1m3!1d2812031.3785384116!2d1.3052199999999998!3d46.505648!2m2!1f0!2f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47fbf533b0f24759%3A0xfbd3e595390805c9!2sFontmorand!5e0!3m2!1sen!2s!4v1397938081894" width="600" height="450" scrolling="no" frameborder="0" style="border:0"></iframe>
           </div>-->
-          <div class="google-maps" id="gmap"></div>
+          <div class="google-maps" id="map"></div>
     <script>
       function initMap() {
         var uluru = {lat: 46.506208, lng: 1.305091};
         var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 7,
+          zoom: 4,
           center: uluru
         });
         var marker = new google.maps.Marker({
