@@ -227,10 +227,11 @@ p, div {
 }
 
 .google-maps {
-	position: center;
-	padding-bottom: 75%; /* This is the aspect ratio*/
+ margin: 0 auto;
+	/*padding-bottom: 75%; /* This is the aspect ratio
 	height: 0;
-	overflow: hidden;
+ position: center;
+	overflow: hidden;*/
 }
 /*.google-maps iframe {
 	position: absolute;
