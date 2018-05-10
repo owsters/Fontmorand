@@ -1,0 +1,342 @@
+/*Adding Bootstrap*/
+@import url("../../dist/css/bootstrap.min.css");
+@import url("http://blueimp.github.io/Gallery/css/blueimp-gallery.min.css");
+@import url("font-awesome.css");
+/*Adding Google Fonts*/
+@import url("http://fonts.googleapis.com/css?family=Corben:bold|Nobile");
+
+body {
+	padding-top: 55px;
+	padding-bottom: 50px;
+	background-color: #f8f8f8;
+}
+
+/*.navbar-header,*/
+.navbar,
+.navbar > li,
+.navbar > li > a{
+	min-height: 30px;
+	font-size: 14px;
+	/*max-height: 30px;*/
+}
+/*.navbar-toggle {
+	min-height: 40px;
+}*/
+.navbar-default .navbar-nav {
+	background-color:#333;
+	/*border-color: #f8f8f8;*/
+}
+.navbar-default .navbar-brand {
+	color: #e7e7e7;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+	color: #555;
+}
+.navbar-default .navbar-text {
+	color: #777;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #e7e7e7;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	color: #555;
+	background-color: #f8f8f8;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: #555;
+	background-color: #f8f8f8;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+	color: #555;
+	background-color: #f8f8f8;
+}
+.navbar-default .navbar-toggle {
+	background-color:#e7e7e7;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background-color: #e7e7e7;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #e7e7e7;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+	border-color: #333;
+}
+.navbar-default .navbar-link {
+	color: #777;
+}
+.navbar-default .navbar-link:hover {
+	color: #555;
+}
+
+@media (max-width: 767px) {
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+		color: #777;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+		color: #555;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+		color: #555;
+		background-color: #f8f8f8;
+	}
+}
+
+.nav-tabs > li > a, .nav-pills > li > a{
+	color:#777;
+}
+
+.nav, .nav-tabs > li.active > a{
+	color:#555;
+	background-color:#e7e7e7;
+}
+
+/* tab color */
+.nav, .nav-tabs>li>a, .nav-pills>li>a {
+  background-color: #f8f8f8; 
+  border-color: #f8f8f8;
+  color:#777;
+}
+
+/* active dropdown item*/
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+  color: #555;
+  background-color: #e7e7e7;
+}
+
+/* active tab color */
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus,
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+  color: #555;
+	border-color:#e7e7e7;
+  /*background-color: #e7e7e7;*/
+}
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus{
+	border-color:#f8f8f8;
+}
+
+/* active tab hover color */
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:hover,
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:hover {
+  color: #333;
+  background-color: #e7e7e7;
+}
+
+/* hover tab color */
+.nav-tabs>li>a:hover, .nav-pills>li>a:hover {
+  border-color: #f8f8f8;
+  background-color: #f8f8f8;
+	color: #333;
+}
+
+/*Center the tab bar*/
+.nav-tabs > li, .nav-pills > li {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+    zoom:1; /* hasLayout ie7 trigger */
+}
+
+.nav-tabs, .nav-pills {
+    text-align:center;
+}
+
+.dropdown-menu{
+	background-color:#f8f8f8;
+}
+
+.dropdown-menu>li>a{
+	font-size:12px;
+	background-color: #f8f8f8;
+	color:#777;
+}
+
+.dropdown-menu>li>a:hover{
+	color:#3333;
+}
+
+/* Customize container */
+@media (max-width: 767px){
+	.container-header{
+	padding-left: 0%;
+	padding-right: 0%;
+	}
+}
+@media (min-width: 768px) {
+	.container{
+	max-width: 980px;
+	padding-left: 0%;
+	padding-right: 0%;
+	}
+	.container-padded{
+	padding-left: 10%;
+	padding-right: 10%;
+	}
+	.navbar-centered .navbar-nav {
+		float: none;
+		text-align: center;
+	}
+	.navbar-centered .navbar-nav > li {
+		float: none;
+	}
+	.navbar-centered .nav > li {
+		display: inline;
+	}
+	.navbar-centered .nav > li > a {
+		display: inline-block;
+		/*padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 10px;
+		padding-bottom: 2px;
+		margin-bottom: 2px;*/
+	}
+}
+
+.jumbotron {
+	background: url("../../img/house_new.jpg") repeat right top;
+	/*height:327px;*/
+	height:462px;
+	color:white;
+	/*padding: 0;
+	padding-top: 10px;*/
+}
+.jumbotron > h1{
+	font-size: 30px;
+}
+.jumbotron > p{
+	font-size: 20px;
+}
+.container .jumbotron {
+	/*padding-right: 10px;
+	padding-left: 10px;*/
+	/*background: url(../../img/old_wall_transparent.png) fixed repeat 0 0;*/
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Corben', Georgia, Times, serif;
+	text-shadow: 1px 1px 1px #ccc;
+}
+
+p, div {
+	font-family: 'Nobile', Helvetica, Arial, sans-serif;
+}
+
+.a i { 
+    margin: 0;  
+}
+
+.google-maps {
+	position: relative;
+	padding-bottom: 75%; /* This is the aspect ratio*/
+	height: 0;
+	overflow: hidden;
+}
+.google-maps iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100% !important;
+	height: 100% !important;
+}
+.modal-content{
+	background-color:#f8f8f8;
+}
+.btn-default{
+	background-color:#f8f8f8;
+	border-color:#f8f8f8;
+	color:#777;
+}
+.btn-default:hover{
+	background-color:#f8f8f8;
+	border-color:#f8f8f8;
+}
+.bootstrap-validator-form .help-block {
+    margin-bottom: 0;
+}
+
+.blueimp-gallery > .description {
+  position: absolute;
+  top: 50px;
+  left: 15px;
+  color: #fff;
+  display: none;
+}
+.blueimp-gallery-controls > .description {
+  display: block;
+}
+
+.gap{
+	padding-left:25px;
+}
+
+.gap-top{
+	padding-top:20px;
+}
+
+/*Added everything below to fix thumbnail heights*/
+/* columns of same height styles */
+.container-xs-height {
+    display:table;
+    padding-left:0px;
+    padding-right:0px;
+}
+.row-xs-height {
+    display:table-row;
+}
+.col-xs-height {
+    display:table-cell;
+    float:none;
+}
+@media (min-width: 768px) {
+    .container-sm-height {
+        display:table;
+        padding-left:0px;
+        padding-right:0px;
+    }
+    .row-sm-height {
+        display:table-row;
+    }
+    .col-sm-height {
+        display:table-cell;
+        float:none;
+    }
+}
+@media (min-width: 992px) {
+    .container-md-height {
+        display:table;
+        padding-left:0px;
+        padding-right:0px;
+    }
+    .row-md-height {
+        display:table-row;
+    }
+    .col-md-height {
+        display:table-cell;
+        float:none;
+    }
+}
+@media (min-width: 1200px) {
+    .container-lg-height {
+        display:table;
+        padding-left:0px;
+        padding-right:0px;
+    }
+    .row-lg-height {
+        display:table-row;
+    }
+    .col-lg-height {
+        display:table-cell;
+        float:none;
+    }
+}
+/* vertical alignment styles */
+.col-top {
+    vertical-align:top;
+}
+.col-middle {
+    vertical-align:middle;
+}
+.col-bottom {
+    vertical-align:bottom;
+}

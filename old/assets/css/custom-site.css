@@ -1,0 +1,59 @@
+@import url("../../dist/css/bootstrap.css");
+/*@import url("../../dist/css/bootstrap-theme.css");*/
+
+body {
+  min-height: 2000px;
+  padding-top: 70px;
+}
+/* Customize container */
+@media (min-width: 768px) {
+  .container{
+    max-width: 900px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+.jumbotron {
+background: url(../../img/house.jpg) no-repeat right top;
+background-color:transparent;
+height:250px;
+/*background-size: cover;*/
+color:white;
+padding: 0;
+padding-top: 10px;
+}
+.container .jumbotron {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+/*Remove colour from the edges of the navbar*/
+.navbar-default{
+  background-color: transparent;
+  border-color: transparent;
+}
+/* Return colour to the middle area we are looking for*/
+.navbar-header,
+.navbar-brand,
+.navbar-collapse,
+.collapse{
+  background-color: #f8f8f8;
+  border-color: #e7e7e7;
+  font-size: 15px;
+}
+
+/* Adding to give a little space in the brand area*/
+.navbar-header{
+  padding-left: 15px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Corben', Georgia, Times, serif;
+  /*font-family: 'Arvo', Georgia, Times, serif;
+  font-family: 'Alegreya', serif;*/
+}
+
+p, div, h4 {
+  font-family: 'Nobile', Helvetica, Arial, sans-serif;
+  /*font-family: 'PT Sans', Helvetica, Arial, sans-serif;*/
+}
