@@ -1,9 +1,9 @@
 /*Adding Bootstrap*/
 @import url("../../dist/css/bootstrap.min.css");
-@import url("http://blueimp.github.io/Gallery/css/blueimp-gallery.min.css");
+@import url("//blueimp.github.io/Gallery/css/blueimp-gallery.min.css");
 @import url("font-awesome.css");
 /*Adding Google Fonts*/
-@import url("http://fonts.googleapis.com/css?family=Corben:bold|Nobile");
+@import url("//fonts.googleapis.com/css?family=Corben:bold|Nobile");
 
 body {
 	padding-top: 55px;
