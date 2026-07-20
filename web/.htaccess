@@ -5,4 +5,9 @@ RedirectPermanent /pages/photos.php /photographs/
 RedirectPermanent /pages/area.php /valley/
 RedirectPermanent /pages/find-us.php /valley/
 RedirectPermanent /pages/contact.php /
+RedirectPermanent /pages/details.html /house/
+RedirectPermanent /pages/history.html /story/
+RedirectPermanent /pages/photos.html /photographs/
+RedirectPermanent /pages/area.html /valley/
+RedirectPermanent /pages/find-us.html /valley/
 DirectoryIndex index.html

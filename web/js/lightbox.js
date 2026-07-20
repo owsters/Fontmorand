@@ -19,6 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
     var item = items[index];
     img.src = item.getAttribute('href');
     caption.textContent = item.getAttribute('data-caption') || '';
+    img.alt = caption.textContent;
     overlay.classList.add('is-open');
   }
 

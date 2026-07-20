@@ -75,12 +75,7 @@ web/img/out/09.jpg 1152x971
 web/img/out/10_m.jpg 800x600
 web/img/out/10.jpg 2048x1536
 web/img/region/creuse-valley.jpg 1600x1035
-web/img/region/creuse-valley_m.jpg 800x517
 web/img/region/eguzon-dam.jpg 1600x1060
-web/img/region/eguzon-dam_m.jpg 800x530
 web/img/region/gargilesse.jpg 1600x1139
-web/img/region/gargilesse_m.jpg 800x569
 web/img/region/brenne-etang.jpg 1600x1200
-web/img/region/brenne-etang_m.jpg 800x600
 web/img/region/st-benoit.jpg 1600x1066
-web/img/region/st-benoit_m.jpg 800x533
