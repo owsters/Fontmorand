@@ -117,3 +117,17 @@ No automated test suite (static-ish PHP site) - manual but structured:
 - Hosting migration off Heroku
 - Any booking/payment/CMS functionality (site remains static informational content)
 - Deep content additions beyond filling existing gaps (empty direction tabs, missing history entry) - a full rewrite of all copy is not required
+
+## Revision 1: visual layout (post-implementation feedback)
+
+After the first implementation pass shipped, real feedback was: the rebuild kept the original site's structure and small-thumbnail-grid galleries almost unchanged, the homepage lost its only photo (it never had one, but a text-only hero read as a regression), and the Area page had a genuine CSS bug (prose text overlapping its photo column, because `.entry-body` had no defined width and refused to shrink next to the fixed-width image column). Section 3 above already called for "large hero images per page" - the first implementation didn't deliver on that. This revision does.
+
+Approved via the visual brainstorming companion (mockup comparisons, not just text):
+
+- **Homepage:** full-bleed photo hero (edge-to-edge, breaking out of the `.content` max-width column) with the title and tagline overlaid on a dark gradient at the bottom of the image, instead of the text-only `.hero` band.
+- **Photos page (all 4 tabs) and Area page (both tabs):** each tab gets one full-bleed **lead photo** (the strongest/most representative shot in that category) with a small italic caption overlay, followed by the remaining photos as smaller **supporting shots** in a contained row below. This replaces the small 5-6-per-row thumbnail grid.
+- **Area page specifically:** the prose text moves from beside the photos (the old `.entry` side-by-side layout that overlapped) to below the lead photo and above the supporting-shot row - a vertical stack, not a side-by-side split. This is a structural fix, not just a style tweak - there is no longer a fixed-width column for prose to collide with.
+- **Details and History pages: unchanged.** Details has no imagery in the original content; History's small portrait-style story images weren't flagged as a problem. Confirmed explicitly rather than assumed.
+- **Page structure/navigation: unchanged.** Still the same 7 pages - no specific problem was identified with the information architecture itself, only with how photos were presented within pages.
+- **Technical approach:** a `.full-bleed` CSS utility using the standard `width: 100vw` / negative-margin (via `calc(50% - 50vw)`) break-out technique - no layout framework needed, consistent with the "no build tools" constraint.
+- Lead photos display at their optimised full size (already capped at 1600px long edge by the Task 2 image pass) rather than a thumbnail, since they're now shown large; supporting shots continue to use the existing `_tn.jpg` thumbnails. Both lead and supporting shots stay inside the page's `.gallery` container so the existing lightbox's next/prev still cycles through every photo in that tab, lead photo included.
