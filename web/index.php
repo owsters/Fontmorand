@@ -6,9 +6,12 @@ $baseUrl = '';
 require __DIR__ . '/includes/head.php';
 require __DIR__ . '/includes/nav.php';
 ?>
-<div class="hero">
-  <h1>Fontmorand</h1>
-  <p>A beautiful, secluded Maison de Maître, set in 3.5 hectares of private, picturesque countryside in central France.</p>
+<div class="full-bleed hero-photo">
+  <img src="pages/img/ext/01.jpg" alt="Fontmorand, viewed from across the lake">
+  <div class="hero-photo-caption">
+    <h1>Fontmorand</h1>
+    <p>A beautiful, secluded Maison de Maître, set in 3.5 hectares of private, picturesque countryside in central France.</p>
+  </div>
 </div>
 
 <div class="content">
