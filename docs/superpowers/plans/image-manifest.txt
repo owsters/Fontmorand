@@ -17,7 +17,6 @@ web/img/ext/08_m.jpg 800x597
 web/img/ext/08.jpg 2048x1530
 web/img/favicon.png 32x32
 web/img/font.jpg 136x200
-web/img/FPS-Sticker-small.png 125x125
 web/img/grd/01_m.jpg 800x532
 web/img/grd/01.jpg 2048x1362
 web/img/grd/02_m.jpg 800x600
@@ -28,8 +27,6 @@ web/img/grd/04_m.jpg 800x532
 web/img/grd/04.jpg 2048x1363
 web/img/grd/05_m.jpg 800x600
 web/img/grd/05.jpg 2048x1536
-web/img/house_new.jpg 980x462
-web/img/house.jpg 980x327
 web/img/int/01_m.jpg 800x600
 web/img/int/01.jpg 2048x1536
 web/img/int/02_m.jpg 800x600
@@ -57,8 +54,6 @@ web/img/int/12.jpg 2048x1536
 web/img/lead/distance.jpg 1600x663
 web/img/lead/property.jpg 1600x702
 web/img/monk.jpg 136x170
-web/img/old_wall_transparent.png 300x300
-web/img/old_wall.png 300x300
 web/img/out/01_m.jpg 800x507
 web/img/out/01.jpg 2081x1320
 web/img/out/02_m.jpg 800x531
@@ -79,21 +74,6 @@ web/img/out/09_m.jpg 800x674
 web/img/out/09.jpg 1152x971
 web/img/out/10_m.jpg 800x600
 web/img/out/10.jpg 2048x1536
-web/img/region/01_m.jpg 800x600
-web/img/region/01.jpg 1600x1200
-web/img/region/02_m.jpg 800x600
-web/img/region/02.jpg 1600x1200
-web/img/region/03_m.jpg 800x499
-web/img/region/03.jpg 1600x998
-web/img/region/barrage_m.jpg 800x533
-web/img/region/barrage.jpg 1536x1024
-web/img/region/brenne1_m.jpg 800x533
-web/img/region/brenne1.jpg 1024x683
-web/img/region/brenne2_m.jpg 800x532
-web/img/region/brenne2.jpg 1024x681
-web/img/region/canoe_m.jpg 800x600
-web/img/region/canoe.jpg 2048x1536
-web/img/rmOverseasLogo.jpg 300x31
 web/img/region/creuse-valley.jpg 1600x1035
 web/img/region/creuse-valley_m.jpg 800x517
 web/img/region/eguzon-dam.jpg 1600x1060

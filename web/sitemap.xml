@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://fontmorand.com/index.php</loc></url>
-  <url><loc>https://fontmorand.com/pages/details.php</loc></url>
-  <url><loc>https://fontmorand.com/pages/photos.php</loc></url>
-  <url><loc>https://fontmorand.com/pages/history.php</loc></url>
-  <url><loc>https://fontmorand.com/pages/area.php</loc></url>
-  <url><loc>https://fontmorand.com/pages/find-us.php</loc></url>
-  <url><loc>https://fontmorand.com/pages/contact.php</loc></url>
+  <url><loc>https://fontmorand.com/</loc></url>
+  <url><loc>https://fontmorand.com/house/</loc></url>
+  <url><loc>https://fontmorand.com/story/</loc></url>
+  <url><loc>https://fontmorand.com/photographs/</loc></url>
+  <url><loc>https://fontmorand.com/valley/</loc></url>
 </urlset>
