@@ -235,6 +235,9 @@ a.plate-link { text-decoration: none; color: inherit; display: block; }
 .site-footer a { color: var(--muted); }
 
 /* ---------- Lightbox (markup created by js/lightbox.js) ---------- */
+/* .gallery and .gallery-item are the lightbox's JS hooks (see js/lightbox.js);
+   their visual styling comes from .album-grid, .plate and .plate-link. */
+.gallery-item { cursor: pointer; }
 .lightbox-overlay {
   position: fixed;
   inset: 0;
