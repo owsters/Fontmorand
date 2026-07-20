@@ -1,13 +1,13 @@
-RedirectPermanent /index.php /
-RedirectPermanent /pages/details.php /house/
-RedirectPermanent /pages/history.php /story/
-RedirectPermanent /pages/photos.php /photographs/
-RedirectPermanent /pages/area.php /valley/
-RedirectPermanent /pages/find-us.php /valley/
-RedirectPermanent /pages/contact.php /
-RedirectPermanent /pages/details.html /house/
-RedirectPermanent /pages/history.html /story/
-RedirectPermanent /pages/photos.html /photographs/
-RedirectPermanent /pages/area.html /valley/
-RedirectPermanent /pages/find-us.html /valley/
+RedirectPermanent /index.php https://fontmorand.com/
+RedirectPermanent /pages/details.php https://fontmorand.com/house/
+RedirectPermanent /pages/history.php https://fontmorand.com/story/
+RedirectPermanent /pages/photos.php https://fontmorand.com/photographs/
+RedirectPermanent /pages/area.php https://fontmorand.com/valley/
+RedirectPermanent /pages/find-us.php https://fontmorand.com/valley/
+RedirectPermanent /pages/contact.php https://fontmorand.com/
+RedirectPermanent /pages/details.html https://fontmorand.com/house/
+RedirectPermanent /pages/history.html https://fontmorand.com/story/
+RedirectPermanent /pages/photos.html https://fontmorand.com/photographs/
+RedirectPermanent /pages/area.html https://fontmorand.com/valley/
+RedirectPermanent /pages/find-us.html https://fontmorand.com/valley/
 DirectoryIndex index.html
