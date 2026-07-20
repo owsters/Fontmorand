@@ -93,6 +93,14 @@ web/img/region/brenne2_m.jpg 800x532
 web/img/region/brenne2.jpg 1024x681
 web/img/region/canoe_m.jpg 800x600
 web/img/region/canoe.jpg 2048x1536
-web/img/region/gargilesse_m.jpg 800x600
-web/img/region/gargilesse.jpg 2048x1536
 web/img/rmOverseasLogo.jpg 300x31
+web/img/region/creuse-valley.jpg 1600x1035
+web/img/region/creuse-valley_m.jpg 800x517
+web/img/region/eguzon-dam.jpg 1600x1060
+web/img/region/eguzon-dam_m.jpg 800x530
+web/img/region/gargilesse.jpg 1600x1139
+web/img/region/gargilesse_m.jpg 800x569
+web/img/region/brenne-etang.jpg 1600x1200
+web/img/region/brenne-etang_m.jpg 800x600
+web/img/region/st-benoit.jpg 1600x1066
+web/img/region/st-benoit_m.jpg 800x533
