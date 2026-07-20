@@ -42,3 +42,18 @@ web/pages/img/out/_notes/Icon
 web/pages/img/out/Icon
 web/pages/img/region/_notes/Icon
 web/pages/img/region/Icon
+
+# Claude Code internals
+.claude/
+session-logs/
+.playwright-mcp/
+.superpowers/
+CLAUDE.md
+
+# macOS
+.DS_Store
+
+# Secrets
+.env
+.env.local
+*.env
