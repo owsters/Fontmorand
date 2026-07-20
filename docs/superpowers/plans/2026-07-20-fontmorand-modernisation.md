@@ -1135,7 +1135,7 @@ git commit -m "Migrate Area page to PHP includes and the vanilla lightbox"
 **Interfaces:**
 - Consumes: `web/includes/{head,nav,footer}.php` (Task 1).
 
-**Manual step before this goes live:** rotate the Google Maps API key. The old key (`AIzaSyAoe5UUnF3w-QUOAYy9wFJ6mBA79nkSsrI`) is exposed in the current live page and git history - create a new key in Google Cloud Console, restrict it to the `fontmorand.com`/`fontmorand.fr` HTTP referrers, and replace `YOUR_RESTRICTED_MAPS_KEY` below with it.
+**Manual step before this goes live:** rotate the Google Maps API key. The old key (`AIzaSy...SsrI`, redacted here) is exposed in the current live page and git history - create a new key in Google Cloud Console, restrict it to the `fontmorand.com`/`fontmorand.fr` HTTP referrers, and replace `YOUR_RESTRICTED_MAPS_KEY` below with it.
 
 - [ ] **Step 1: Create `web/pages/find-us.php`**
 
@@ -1210,7 +1210,7 @@ php -S localhost:8000 -t web >/tmp/fontmorand-smoke.log 2>&1 &
 SERVER_PID=$!
 sleep 1
 curl -s http://localhost:8000/pages/find-us.php | grep -q "initFontmorandMap" && echo PASS_MAP
-curl -s http://localhost:8000/pages/find-us.php | grep -qc "AIzaSyAoe5UUnF3w-QUOAYy9wFJ6mBA79nkSsrI" ; echo "old key present: $?"
+curl -s http://localhost:8000/pages/find-us.php | grep -qc "AIzaSy" ; echo "old key present: $?"
 kill $SERVER_PID
 ```
 Expected: `PASS_MAP` printed; the old key grep should report a non-zero exit (i.e. not found) once `YOUR_RESTRICTED_MAPS_KEY` is swapped for the real rotated key.
