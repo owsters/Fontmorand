@@ -148,6 +148,9 @@ a.plate-link { text-decoration: none; color: inherit; display: block; }
   padding: 0 2rem;
 }
 .album-grid .plate { margin: 0; max-width: none; }
+/* Uniform 4:3 windows so mixed-orientation photos sit calmly in the grid;
+   the lightbox still shows each photograph uncropped. */
+.album-grid .plate img { aspect-ratio: 4 / 3; object-fit: cover; }
 
 /* ---------- Film plate ---------- */
 .film-plate .film-poster { position: relative; }
