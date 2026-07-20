@@ -205,16 +205,7 @@ a.plate-link { text-decoration: none; color: inherit; display: block; }
 .chapter-card p { font-size: .92rem; color: var(--ink-soft); line-height: 1.6; margin: 0; }
 .chapter-card:hover h3 { color: var(--accent); }
 
-/* ---------- Map and colophon ---------- */
-.map-figure { max-width: 480px; margin: 2.5rem auto; padding: 0 2rem; }
-.map-figure svg { width: 100%; height: auto; display: block; }
-.map-figure figcaption {
-  text-align: center;
-  font-size: .85rem;
-  font-style: italic;
-  color: var(--muted);
-  padding-top: 10px;
-}
+/* ---------- Colophon ---------- */
 .colophon {
   max-width: var(--measure);
   margin: 3rem auto 0;
@@ -291,7 +282,7 @@ a.plate-link { text-decoration: none; color: inherit; display: block; }
   .masthead-nav.is-open { display: flex; }
   .chapter-title { font-size: 2.2rem; }
   .page-opening { padding: 2.5rem 1.2rem 2rem; }
-  .prose, .plate-wrap, .artefact-row, .map-figure { padding-left: 1.2rem; padding-right: 1.2rem; }
+  .prose, .plate-wrap, .artefact-row { padding-left: 1.2rem; padding-right: 1.2rem; }
   .chapter-index { grid-template-columns: 1fr; }
   .album-grid { grid-template-columns: 1fr; padding: 0 1.2rem; }
 }

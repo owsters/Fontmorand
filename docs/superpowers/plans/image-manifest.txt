@@ -79,3 +79,4 @@ web/img/region/eguzon-dam.jpg 1600x1060
 web/img/region/gargilesse.jpg 1600x1139
 web/img/region/brenne-etang.jpg 1600x1200
 web/img/region/st-benoit.jpg 1600x1066
+web/img/prissac-map.jpg 1536x1024
